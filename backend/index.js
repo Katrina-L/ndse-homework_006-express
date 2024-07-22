@@ -22,10 +22,7 @@ class Book {
 }
 
 const library = {
-    books: [
-        new Book("title1", "desc1", "author1"),
-        new Book("title2", "desc2", "author2")
-    ],
+    books: [],
 };
 
 const app = express();
